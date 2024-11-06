@@ -297,12 +297,26 @@ body:has(.header__menu.menu--active) {
 
 .hero {
   background: url(../resources/images/background-1x.jpg);
+  background: url(../resources/images/background-1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   height: 100vh;
   width: 100%;
 }
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    background: url(../resources/images/background-2x.jpg);
+    background: url(../resources/images/background-2x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
 
 .hero__container {
   padding-top: 138px;
