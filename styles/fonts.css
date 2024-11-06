@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Actay;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Actay"),
+    url("./../resources/fonts/Actay-Regular.woff2") format('woff2'),
+    url("./../resources/fonts/Actay-Regular.woff") format('woff'),
+    url("./../resources/fonts/Actay-Regular.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Actay Wide";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Actay Wide"),
+    url("./../resources/fonts/ActayWide-Bold.woff2") format('woff2'),
+    url("./../resources/fonts/ActayWide-Bold.woff") format('woff'),
+    url("./../resources/fonts/ActayWide-Bold.eot") format('eot');
+  font-display: swap;
+}
